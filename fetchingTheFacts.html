@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JokesOfTheDay</title>
+    <link rel="stylesheet" href="./jokes.css" />
+  </head>
+  <body>
+    <center><h1>Want to see a Joke</h1></center>
+    <center><button onclick="getJokes()">GetJoke</button></center>
+    <div>
+      <center><h2 class="p1"></h2></center>
+      <center>
+        <button onclick="ans()" disabled class="btn2">Ans</button>
+      </center>
+      <center><h2 class="p2"></h2></center>
+    </div>
+    <script src="./fetchApi.js"></script>
+  </body>
+</html>
